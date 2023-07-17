@@ -39,15 +39,32 @@
       "type": "richtext",
       "required": true
     },
-    "link": {
-      "type": "string"
-    },
     "device": {
       "type": "enumeration",
       "enum": [
         "Desktop",
         "mobile"
       ]
+    },
+    "favorite": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ],
+      "required": true
+    },
+    "siteLink": {
+      "type": "string",
+      "required": false
+    },
+    "googleStoreLink": {
+      "type": "string",
+      "required": false
+    },
+    "appleStoreLink": {
+      "type": "string",
+      "required": false
     }
   }
 }
