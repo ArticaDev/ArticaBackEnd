@@ -55,15 +55,15 @@
       "required": true
     },
     "siteLink": {
-      "type": "string",
+      "type": "text",
       "required": false
     },
     "googleStoreLink": {
-      "type": "string",
+      "type": "text",
       "required": false
     },
     "appleStoreLink": {
-      "type": "string",
+      "type": "text",
       "required": false
     }
   }
