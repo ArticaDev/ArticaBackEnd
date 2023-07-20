@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "social_medias",
+  "info": {
+    "singularName": "social-media",
+    "pluralName": "social-medias",
+    "displayName": "social-media"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "whatsappLink": {
+      "type": "text",
+      "required": true
+    },
+    "linkedinLink": {
+      "type": "text",
+      "required": true
+    },
+    "emailLink": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
