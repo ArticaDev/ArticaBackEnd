@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "questions",
+  "collectionName": "banners",
   "info": {
-    "singularName": "question",
-    "pluralName": "questions",
-    "displayName": "question",
-    "description": ""
+    "singularName": "banner",
+    "pluralName": "banners",
+    "displayName": "Banner"
   },
   "options": {
     "draftAndPublish": false
@@ -16,23 +15,29 @@
     }
   },
   "attributes": {
-    "doubt": {
-      "type": "text",
-      "required": true,
+    "Titulo": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "type": "string"
     },
-    "answer": {
-      "type": "text",
-      "required": true,
+    "Subtitulo": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "type": "string"
+    },
+    "Texto": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
